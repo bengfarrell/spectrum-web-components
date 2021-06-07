@@ -45,6 +45,7 @@ export class Tray extends SpectrumElement {
             firstFocusable.focus();
         } else if (this.children.length === 1) {
             this.tray.focus();
+            console.log('hi');
         } else {
             super.focus();
         }
